@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Learning Hub</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+    </style> 
+</head>
+<body class="bg-gray-50 min-h-screen">
+    <!-- Header -->
+    <header class="gradient-bg text-white py-12">
+        <div class="container mx-auto px-4 text-center">
+            <div class="mb-6">
+                <i class="fab fa-js-square text-6xl mb-4"></i>
+            </div>
+            <h1 class="text-4xl md:text-6xl font-bold mb-4">JavaScript Learning Hub</h1>
+            <p class="text-xl md:text-2xl opacity-90">🚀 Laboratório de Exercícios & Micro-Projetos</p>
+            <p class="text-lg mt-2 opacity-80">Coleção de atividades para dominar JavaScript</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-12">
+        <!-- Projetos Principais -->
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">
+                <i class="fas fa-project-diagram mr-3 text-blue-600"></i>
+                Projetos Principais
+            </h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Flags Project -->
+                <div class="bg-white rounded-lg shadow-lg p-6 card-hover">
+                    <div class="text-center mb-4">
+                        <i class="fas fa-flag text-4xl text-red-500 mb-3"></i>
+                        <h3 class="text-xl font-semibold text-gray-800">Bandeiras Interativas</h3>
+                    </div>
+                    <p class="text-gray-600 mb-4">Projeto visual com bandeiras de países usando HTML, CSS e JavaScript modular.</p>
+                    <div class="flex flex-col space-y-2">
+                        <a href="./javascript/atividade-flags/flags.html" 
+                           class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition-colors text-center">
+                            <i class="fas fa-play mr-2"></i>Ver Projeto
+                        </a>
+                        <a href="./javascript/atividade-flags/" 
+                           class="bg-gray-500 text-white px-4 py-2 rounded hover:bg-gray-600 transition-colors text-center">
+                            <i class="fas fa-folder mr-2"></i>Ver Código
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Programação Funcional -->
+                <div class="bg-white rounded-lg shadow-lg p-6 card-hover">
+                    <div class="text-center mb-4">
+                        <i class="fas fa-code text-4xl text-purple-500 mb-3"></i>
+                        <h3 class="text-xl font-semibold text-gray-800">Programação Funcional</h3>
+                    </div>
+                    <p class="text-gray-600 mb-4">Exercícios com arrays, objetos e conceitos de programação funcional.</p>
+                    <div class="flex flex-col space-y-2">
+                        <a href="https://github.com/LuisEduardox/JavaScript/tree/main/javascript/programacao%20funcional%20e%20objetos" 
+                           class="bg-purple-500 text-white px-4 py-2 rounded hover:bg-purple-600 transition-colors text-center">
+                            <i class="fas fa-folder mr-2"></i>Ver Arquivos
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Práticas -->
+                <div class="bg-white rounded-lg shadow-lg p-6 card-hover">
+                    <div class="text-center mb-4">
+                        <i class="fas fa-dumbbell text-4xl text-green-500 mb-3"></i>
+                        <h3 class="text-xl font-semibold text-gray-800">Exercícios Práticos</h3>
+                    </div>
+                    <p class="text-gray-600 mb-4">Algoritmos básicos: Fibonacci, cálculos, triângulos e mais.</p>
+                    <div class="flex flex-col space-y-2">
+                        <a href="https://github.com/LuisEduardox/JavaScript/tree/main/javascript/praticas" 
+                           class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition-colors text-center">
+                            <i class="fas fa-folder mr-2"></i>Ver Exercícios
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Módulos de Aprendizado -->
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">
+                <i class="fas fa-book mr-3 text-indigo-600"></i>
+                Módulos de Aprendizado
+            </h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <!-- JavaScript Fundamentals -->
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">
+                        <i class="fas fa-code-branch mr-2 text-yellow-500"></i>
+                        Fundamentos JavaScript
+                    </h3>
+                    <ul class="space-y-2 text-gray-600">
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Módulos ES6+ (import/export)</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Funções e Arrow Functions</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Manipulação de Arrays</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Programação Orientada a Objetos</li>
+                    </ul>
+                </div>
+
+                <!-- DOM Manipulation -->
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">
+                        <i class="fas fa-mouse-pointer mr-2 text-blue-500"></i>
+                        Manipulação do DOM
+                    </h3>
+                    <ul class="space-y-2 text-gray-600">
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Event Listeners</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Dynamic HTML Generation</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>CSS Integration</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Responsive Design</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Links Úteis -->
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">
+                <i class="fas fa-external-link-alt mr-3 text-teal-600"></i>
+                Links Úteis
+            </h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- MDN -->
+                <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" 
+                   target="_blank" 
+                   class="bg-white rounded-lg shadow-md p-4 card-hover text-center">
+                    <i class="fab fa-firefox text-3xl text-orange-500 mb-2"></i>
+                    <h4 class="font-semibold text-gray-800">MDN JavaScript</h4>
+                    <p class="text-sm text-gray-600">Documentação oficial</p>
+                </a>
+
+                <!-- W3Schools -->
+                <a href="https://www.w3schools.com/js/" 
+                   target="_blank" 
+                   class="bg-white rounded-lg shadow-md p-4 card-hover text-center">
+                    <i class="fas fa-graduation-cap text-3xl text-green-500 mb-2"></i>
+                    <h4 class="font-semibold text-gray-800">W3Schools</h4>
+                    <p class="text-sm text-gray-600">Tutoriais e exemplos</p>
+                </a>
+
+                <!-- GitHub -->
+                <a href="https://github.com" 
+                   target="_blank" 
+                   class="bg-white rounded-lg shadow-md p-4 card-hover text-center">
+                    <i class="fab fa-github text-3xl text-gray-800 mb-2"></i>
+                    <h4 class="font-semibold text-gray-800">GitHub</h4>
+                    <p class="text-sm text-gray-600">Repositórios de código</p>
+                </a>
+
+                <!-- VS Code -->
+                <a href="https://code.visualstudio.com/docs/languages/javascript" 
+                   target="_blank" 
+                   class="bg-white rounded-lg shadow-md p-4 card-hover text-center">
+                    <i class="fas fa-code text-3xl text-blue-500 mb-2"></i>
+                    <h4 class="font-semibold text-gray-800">VS Code</h4>
+                    <p class="text-sm text-gray-600">JavaScript no VS Code</p>
+                </a>
+            </div>
+        </section>
+
+        <!-- Estatísticas do Projeto -->
+        <section class="bg-white rounded-lg shadow-lg p-8">
+            <h2 class="text-2xl font-bold text-gray-800 mb-6 text-center">
+                <i class="fas fa-chart-bar mr-3 text-indigo-600"></i>
+                Progresso do Projeto
+            </h2>
+            <div class="flex flex-wrap justify-center gap-8 text-center">
+                <div class="p-4">
+                    <div class="text-3xl font-bold text-blue-600 mb-2">3</div>
+                    <div class="text-gray-600">Projetos Completos</div>
+                </div>
+                <div class="p-4">
+                    <div class="text-3xl font-bold text-green-600 mb-2">15+</div>
+                    <div class="text-gray-600">Exercícios</div>
+                </div>
+                <div class="p-4">
+                    <div class="text-3xl font-bold text-red-600 mb-2">100%</div>
+                    <div class="text-gray-600">Modular</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8 mt-16">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-lg mb-2">
+                <i class="fas fa-code mr-2"></i>
+                JavaScript Learning Hub
+            </p>
+            <p class="text-gray-400">
+                🚀 Laboratório de JavaScript: Exercícios & Micro-Projetos
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Adiciona funcionalidade de smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Adiciona efeito de loading aos links externos
+        document.querySelectorAll('a[target="_blank"]').forEach(link => {
+            link.addEventListener('click', function() {
+                this.style.opacity = '0.7';
+                setTimeout(() => {
+                    this.style.opacity = '1';
+                }, 200);
+            });
+        });
+    </script>
+</body>
+</html>
