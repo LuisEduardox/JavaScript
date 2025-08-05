@@ -9,7 +9,7 @@ Coleção de atividades e pequenos projetos em JavaScript, criados para dominar 
    - Manipulação de arrays e objetos  
 
 ✅ **Projetos Visuais**:  
-   - [Flags interativas](https://luiseduardox.github.io/JavaScript/JavaScript/atividade-flags/flags.html) (HTML/CSS/JS)  
+   - [Flags interativas](JavaScript/atividade-flags/flags.html) (HTML/CSS/JS)  
    - Exemplos de DOM e eventos  
 
 ✅ **APIs e Integração**:  
@@ -25,7 +25,7 @@ Coleção de atividades e pequenos projetos em JavaScript, criados para dominar 
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/LuisEduardox/JavaScript.git
+git clone https://github.com/LuisEduardox/LinguagemScript.git
 ```
 
 2. Abra o arquivo `index.html` no navegador para navegar pelos projetos
