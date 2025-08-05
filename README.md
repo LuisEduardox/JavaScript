@@ -12,6 +12,11 @@ Coleção de atividades e pequenos projetos em JavaScript, criados para dominar 
    - [Flags interativas](https://luiseduardox.github.io/JavaScript/JavaScript/atividade-flags/flags.html) (HTML/CSS/JS)  
    - Exemplos de DOM e eventos  
 
+✅ **APIs e Integração**:  
+   - Consulta CEP com ViaCEP API  
+   - Preenchimento automático de formulários  
+   - Manipulação de dados externos  
+
 ✅ **Programação Funcional**:  
    - Higher-order functions  
    - Imutabilidade e métodos como `map`, `filter`, `reduce`  
@@ -34,10 +39,6 @@ git clone https://github.com/LuisEduardox/JavaScript.git
 ![CSS3](https://img.shields.io/badge/CSS3-blue)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC)
 
-## 📚 Projetos Destacados
-
-- **[Bandeiras Interativas](./javascript/atividade-flags/)**: Sistema modular com 200+ bandeiras
-- **[Exercícios Funcionais](./javascript/programacao%20funcional%20e%20objetos/)**: Conceitos avançados de JS
 
 ✨ Ideal para estudantes, revisão de conceitos ou portfólio inicial.  
 🔧 Tudo 100% modular e comentado para fácil entendimento!
