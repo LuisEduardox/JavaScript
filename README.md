@@ -9,11 +9,11 @@ Coleção de atividades e pequenos projetos em JavaScript, criados para dominar 
    - Manipulação de arrays e objetos  
 
 ✅ **Projetos Visuais**:  
-   - [Flags interativas](https://luiseduardox.github.io/LinguagemScript/JavaScript/consulta-cep/index.html) (HTML/CSS/JS)  
+   - [Flags interativas](https://luiseduardox.github.io/LinguagemScript/JavaScript/atividade-flags/flags.html) (HTML/CSS/JS)
    - Exemplos de DOM e eventos  
 
 ✅ **APIs e Integração**:  
-   - Consulta CEP com ViaCEP API  
+   - [Consulta CEP com ViaCEP API](https://luiseduardox.github.io/LinguagemScript/JavaScript/consulta-cep/index.html)
    - Preenchimento automático de formulários  
    - Manipulação de dados externos  
 
